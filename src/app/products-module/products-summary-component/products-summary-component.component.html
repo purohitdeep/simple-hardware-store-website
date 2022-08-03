@@ -1,0 +1,17 @@
+<mat-card class="product-summary">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{product.name}}</mat-card-title>
+      <mat-card-subtitle>{{product.name}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src={{product.image}} alt={{product.name}}>
+    <mat-card-content>
+      <p>
+        {{product.description}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>ADD TO CART</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
